@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI Personality Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI Personality Test</h1>
+        <div id="quiz-container">
+            <div id="question-container">
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+            <div id="result-container" style="display: none;">
+                <h2>Your MBTI Type is: <span id="mbti-result"></span></h2>
+                <p id="type-description"></p>
+                <button id="restart-btn">Take Test Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
